@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="BouncyCastle.NetCore" Version="1.9.0" />
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="Google.Apis.Admin.Directory.directory_v1" Version="1.60.0.3037" />
+      <PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
+      <PackageReference Include="Google.Apis.Calendar.v3" Version="1.60.0.3017" />
+      <PackageReference Include="Google.Apis.Drive.v3" Version="1.60.0.3034" />
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+      <PackageReference Include="itext7" Version="8.0.0" />
+      <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.0" />
+      <PackageReference Include="itext7.pdfhtml" Version="5.0.0" />
+      <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+      <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.1.23111.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0-preview.1.23111.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.1.23111.4" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.2" />
+      <PackageReference Include="Serilog" Version="2.12.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+      <PackageReference Include="System.DirectoryServices" Version="8.0.0-preview.1.23110.8" />
+      <PackageReference Include="System.DirectoryServices.AccountManagement" Version="7.0.0" />
+      <PackageReference Include="System.Linq" Version="4.3.0" />
+      <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>
